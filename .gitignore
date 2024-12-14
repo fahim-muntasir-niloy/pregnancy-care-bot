@@ -1,0 +1,6 @@
+*.txt
+*.pdf
+*.pyc
+.env
+
+index.ipynb
