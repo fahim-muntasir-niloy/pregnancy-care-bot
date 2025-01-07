@@ -29,7 +29,9 @@ ASTRA_DB_KEYSPACE = os.getenv("ASTRA_DB_KEYSPACE")
 
 
 # vector store
-model_name = "G:\\office\\langflow\\models--BAAI--bge-m3\\snapshots\\babcf60cae0a1f438d7ade582983d4ba462303c2"
+# model_name = "G:\\office\\langflow\\models--BAAI--bge-m3\\snapshots\\babcf60cae0a1f438d7ade582983d4ba462303c2"    # local path
+
+model_name = "BAAI/bge-m3"
 encode_kwargs = {"normalize_embeddings": True}
 
 hf_embedding_model = HuggingFaceBgeEmbeddings(
