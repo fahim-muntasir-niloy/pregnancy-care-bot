@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_app.rag import rag_chain
+from rag import rag_chain
 
 st.title("🤰 Pregnancy Care Bot")
 
